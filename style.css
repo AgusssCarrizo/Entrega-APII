@@ -1,0 +1,82 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+main {
+   background-image: url("/img/fondo.jpeg");
+   width: 100vw;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+}
+.contain-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+#buscar {
+   display: flex;
+   gap: 20px;
+}
+#input {
+   height: 30px;
+}
+.inputt {
+   display: flex;
+   flex-direction: column;
+}
+#btn-add {
+   width: 70px;
+   background: orange;
+   border: none;
+   color: #2f2d2d;
+   border-radius: 0.5rem;
+}
+
+#pokemon {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.container {
+   height: 300px;
+   width: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   background: linear-gradient(0deg, #2f2d2d, 10%, rgba(79, 72, 86, 0.325) 90%);
+   border-radius: 10px;
+   color: white;
+}
+.images {
+   display: flex;
+}
+.images img {
+   width: 100px;
+}
+.imagen {
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   align-items: center;
+   font-weight: bolder;
+}
+.parrafo {
+   text-align: center;
+   width: 200px;
+}
+.parrafo span {
+   font-weight: bolder;
+}
+.small {
+   color: red;
+}
